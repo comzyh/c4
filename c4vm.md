@@ -45,7 +45,7 @@ int *pc, *sp, *bp, a, cycle;
 32. READ 调用C库函数read,堆栈传递2个参数
 33. CLOS 调用C库函数close,堆栈传递2个参数
 34. PRTF 调用C库函数printf,[pc+1]表明参数个数,传递至多六个参数
-35. MALC 调用C胡函数malloc,堆栈传递一个参数
+35. MALC 调用C库函数malloc,堆栈传递一个参数
 36. MSET 调用C库函数memset,堆栈传递3个参数
 37. MCMP 调用C库函数memcmp,堆栈传递3个参数
 38. EXIT 打印虚拟机执行情况,返回[sp]
